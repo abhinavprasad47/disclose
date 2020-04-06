@@ -10,8 +10,8 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_SCHEMA: /disclose/program-list/program-list-schema.json
-          INPUT_JSONS: /disclose/program-list/program-list.json
+          INPUT_SCHEMA: program-list/program-list-schema.json
+          INPUT_JSONS: program-list/program-list.json
           
 
 
